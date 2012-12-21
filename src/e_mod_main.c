@@ -363,7 +363,7 @@ _tclock_config_item_get(const char *id)
    ci->show_date = 1;
    ci->show_time = 1;
    ci->show_tip = 1;
-   ci->time_format = eina_stringshare_add("%T");
+   ci->time_format = eina_stringshare_add("%T  %d.%m.%Y");
    ci->date_format = eina_stringshare_add("%d/%m/%y");
    ci->tip_format = eina_stringshare_add("%A, %B %d, %Y");
 
