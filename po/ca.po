@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Marc Furtià  i Puig\\\n"
+"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2013-01-29 18:09+0100\n"
+"PO-Revision-Date: 2013-02-04 18:15+0100\n"
+"Last-Translator: Marc Furtià i Puig <marc.furtia@gmail.com>\n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Bookmarks: -1,-1,1139,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: src/e_mod_config.c:39
+msgid "Tclock Settings"
+msgstr "Preferències Tclock"
+
+#: src/e_mod_config.c:88
+msgid "Top"
+msgstr "Dalt"
+
+#: src/e_mod_config.c:90
+msgid "Show Top Line"
+msgstr "Mostra Línea Dalt"
+
+#: src/e_mod_config.c:98
+#: src/e_mod_config.c:113
+#: src/e_mod_config.c:129
+msgid "Consult strftime(3) for format syntax"
+msgstr "Consulta strftime(4) pel format de sintaxi"
+
+#: src/e_mod_config.c:102
+msgid "Bottom"
+msgstr "Baix"
+
+#: src/e_mod_config.c:104
+msgid "Show Bottom Line"
+msgstr "Mostra Línea Baix"
+
+#: src/e_mod_config.c:117
+msgid "Tool Tip"
+msgstr "Eina de Consells"
+
+#: src/e_mod_config.c:119
+msgid "Show Tooltip"
+msgstr "Mostra Eina Consells"
+
+#: src/e_mod_main.c:141
+msgid "TClock"
+msgstr "TClock"
+
+#: src/e_mod_main.c:181
+msgid "Settings"
+msgstr "Preferències"
+
+#~ msgid "Tclock Configuration"
+#~ msgstr "Tclock Konfiguration"
+
+#~ msgid "Configuration"
+#~ msgstr "Konfiguration"
