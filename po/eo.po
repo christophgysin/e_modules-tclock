@@ -7,33 +7,53 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eo\n"
 "Report-Msgid-Bugs-To: $MSGID_BUGS_ADDRESS\n"
-"POT-Creation-Date: 2013-06-19 11:30+0200\n"
-"PO-Revision-Date: 2013-06-19 19:54+0000\n"
+"POT-Creation-Date: 2013-06-21 01:05+0200\n"
+"PO-Revision-Date: 2013-06-21 07:18+0000\n"
 "Last-Translator: Eliovir <Unknown>\n"
 "Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-06-20 05:28+0000\n"
-"X-Generator: Launchpad (build 16673)\n"
+"X-Launchpad-Export-Date: 2013-06-22 05:38+0000\n"
+"X-Generator: Launchpad (build 16677)\n"
 "Language: eo\n"
 
-#: src/e_mod_config.c:30
-msgid "Taskbar Configuration"
-msgstr "Agordoj pri taskopleto"
+#: src/e_mod_config.c:39
+msgid "Tclock Settings"
+msgstr "Agordoj de THorloĝo"
 
-#: src/e_mod_config.c:71
-msgid "Display"
-msgstr "Ekrano"
+#: src/e_mod_config.c:88
+msgid "Top"
+msgstr "Supre"
 
-#: src/e_mod_config.c:72
-msgid "Show windows from all desktops"
-msgstr "Montri fenestrojn de ĉiuj labortabloj"
+#: src/e_mod_config.c:90
+msgid "Show Top Line"
+msgstr "Montri supran linion"
 
-#: src/e_mod_main.c:291 src/e_mod_main.c:661
-msgid "Taskbar"
-msgstr "Taskobreto"
+#: src/e_mod_config.c:98 src/e_mod_config.c:113 src/e_mod_config.c:129
+msgid "Consult strftime(3) for format syntax"
+msgstr "Tralegu strftime(3) por la formata sintakso"
 
-#: src/e_mod_main.c:654
+#: src/e_mod_config.c:102
+msgid "Bottom"
+msgstr "Sube"
+
+#: src/e_mod_config.c:104
+msgid "Show Bottom Line"
+msgstr "Montri suban linion"
+
+#: src/e_mod_config.c:117
+msgid "Tool Tip"
+msgstr "Ŝpruchelpilo"
+
+#: src/e_mod_config.c:119
+msgid "Show Tooltip"
+msgstr "Montri ŝpruchelpilon"
+
+#: src/e_mod_main.c:141
+msgid "TClock"
+msgstr "THorloĝo"
+
+#: src/e_mod_main.c:181
 msgid "Settings"
 msgstr "Agordoj"
