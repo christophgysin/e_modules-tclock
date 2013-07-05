@@ -1,4 +1,11 @@
 [Desktop Entry]
+Encoding=UTF-8
+Type=Link
+Name=TClock
+Name[de]=TClock
+Name[el]=Ρολόι TClock
+Name[eo]=THorloĝo
+Name[fr]=HorlogeT
 Comment=A digital clock gadget.
 Comment[cs]=Gadget poskytující digitální hodiny.
 Comment[de]=Digitale Uhranzeige.
@@ -11,12 +18,5 @@ Comment[hu]=Egy digitális óra.
 Comment[it]=Un modulo per un orologio digitale.
 Comment[pt]=Um relógio digital.
 Comment[ru]=Гаджет цифровых часов.
-Encoding=UTF-8
 Icon=e-module-tclock
-Name=TClock
-Name[de]=TClock
-Name[el]=Ρολόι TClock
-Name[eo]=THorloĝo
-Name[fr]=HorlogeT
-Type=Link
 X-Enlightenment-ModuleType=utils
