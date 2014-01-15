@@ -206,13 +206,13 @@ _tclock_cb_mouse_in(void *data, Evas *e __UNUSED__, Evas_Object *obj __UNUSED__,
    if (!inst->ci->show_tip) return;
    if (inst->tip) return;
 
-   inst->tip = e_gadcon_popup_new(inst->gcc);
+   inst->tip = e_gadcon_popup_new(inst->gcc, EINA_FALSE);
 
    current_time = time(NULL);
    local_time = localtime(&current_time);
    memset(buf, 0, sizeof(buf));
    strftime(buf, 1024, inst->ci->tip_format, local_time);
-   inst->o_tip = e_widget_label_add(inst->tip->win->evas, buf);
+   inst->o_tip = e_widget_label_add(e_comp_get(inst->tip)->evas, buf);
 
    e_gadcon_popup_content_set(inst->tip, inst->o_tip);
    e_gadcon_popup_show(inst->tip);

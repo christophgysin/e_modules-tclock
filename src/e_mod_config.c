@@ -21,7 +21,6 @@ _config_tclock_module(Config_Item *ci)
 {
    E_Config_Dialog *cfd = NULL;
    E_Config_Dialog_View *v = NULL;
-   E_Container *con = NULL;
    char buf[PATH_MAX];
 
    if (e_config_dialog_find("TClock", "_e_modules_tclock_config_dialog")) 
@@ -35,9 +34,9 @@ _config_tclock_module(Config_Item *ci)
 
    snprintf(buf, sizeof(buf), "%s/e-module-tclock.edj", 
             tclock_config->mod_dir);
-   con = e_container_current_get(e_manager_current_get());
-   cfd = e_config_dialog_new(con, D_("Tclock Settings"), "TClock", 
-                              "_e_modules_tclock_config_dialog", buf, 0, v, ci);
+   cfd = e_config_dialog_new(e_util_comp_current_get(), D_("Tclock Settings"),
+                              "TClock",  "_e_modules_tclock_config_dialog",
+                              buf, 0, v, ci);
    tclock_config->config_dialog = cfd;
 }
 
