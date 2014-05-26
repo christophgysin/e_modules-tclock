@@ -6,54 +6,54 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: enlightenment\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2009-11-05 16:07+0800\n"
-"PO-Revision-Date: 2009-11-14 14:06+0000\n"
-"Last-Translator: Mustafa Yılmaz <apshalasha@gmail.com>\n"
+"Report-Msgid-Bugs-To: $MSGID_BUGS_ADDRESS\n"
+"POT-Creation-Date: 2013-08-24 11:51+0200\n"
+"PO-Revision-Date: 2013-09-05 08:32+0000\n"
+"Last-Translator: Ali E.İMREK <alierkanimrek@gmail.com>\n"
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-11-15 04:48+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"X-Launchpad-Export-Date: 2013-09-06 05:28+0000\n"
+"X-Generator: Launchpad (build 16760)\n"
+"Language: tr\n"
 
-#: ../src/e_mod_config.c:39
+#: src/e_mod_config.c:39
 msgid "Tclock Settings"
-msgstr "Tclock Ayarları"
+msgstr "Tclock Seçenekleri"
 
-#: ../src/e_mod_config.c:88
+#: src/e_mod_config.c:88
 msgid "Top"
-msgstr "Üstte"
+msgstr "Üst"
 
-#: ../src/e_mod_config.c:90
+#: src/e_mod_config.c:90
 msgid "Show Top Line"
-msgstr "Üst Çizgiyi Göster"
+msgstr "Üst çizgiyi göster"
 
-#: ../src/e_mod_config.c:98 ../src/e_mod_config.c:113
-#: ../src/e_mod_config.c:129
+#: src/e_mod_config.c:98 src/e_mod_config.c:113 src/e_mod_config.c:129
 msgid "Consult strftime(3) for format syntax"
-msgstr "biçim sözdizimi için strftime(3)'e danışın."
+msgstr "Yazım biçimi için strftime(3) kullan"
 
-#: ../src/e_mod_config.c:102
+#: src/e_mod_config.c:102
 msgid "Bottom"
-msgstr "Altta"
+msgstr "Alt"
 
-#: ../src/e_mod_config.c:104
+#: src/e_mod_config.c:104
 msgid "Show Bottom Line"
-msgstr "Alt Çizgiyi Göster"
+msgstr "Alt çizgiyi göster"
 
-#: ../src/e_mod_config.c:117
+#: src/e_mod_config.c:117
 msgid "Tool Tip"
 msgstr "İpucu"
 
-#: ../src/e_mod_config.c:119
+#: src/e_mod_config.c:119
 msgid "Show Tooltip"
-msgstr "İpucu Göster"
+msgstr "İpucunu göster"
 
-#: ../src/e_mod_main.c:141
+#: src/e_mod_main.c:141
 msgid "TClock"
 msgstr "TClock"
 
-#: ../src/e_mod_main.c:184
+#: src/e_mod_main.c:181
 msgid "Settings"
 msgstr "Ayarlar"
